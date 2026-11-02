@@ -1,0 +1,11 @@
+{
+  "name": "caderno-de-pedidos",
+  "version": "1.0.0",
+  "description": "Aplicação web gratuita para pequenos negócios de alimentação anotarem e acompanharem pedidos pelo celular. Projeto da Atividade Extensionista II (Uninter).",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "start": "npx --yes http-server -p 8080 -c-1 ."
+  },
+  "license": "MIT"
+}

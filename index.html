@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Caderno de Pedidos</title>
+  <meta name="description" content="Anote e acompanhe os pedidos do seu negócio de alimentação pelo celular. Gratuito, funciona sem internet e os dados ficam só no seu aparelho.">
+  <meta name="theme-color" content="#14532d">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topo">
+    <div class="topo-linha">
+      <h1 class="marca">
+        <img src="icons/icon.svg" alt="" width="32" height="32">
+        <span id="nome-loja">Caderno de Pedidos</span>
+      </h1>
+      <button type="button" class="operador" data-acao="trocar-operador" aria-label="Trocar quem está usando">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" /><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7" /></svg>
+        <span id="nome-operador">—</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1"></main>
+
+  <nav class="abas" aria-label="Menu principal">
+    <a href="#/pedidos" data-aba="pedidos">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4h14v16H5z M8 8h8 M8 12h8 M8 16h5" /></svg>
+      <span>Pedidos</span>
+    </a>
+    <a href="#/novo" data-aba="novo" class="aba-destaque">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 5v14 M5 12h14" /></svg>
+      <span>Novo pedido</span>
+    </a>
+    <a href="#/resumo" data-aba="resumo">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 20V10 M12 20V4 M19 20v-7" /></svg>
+      <span>Resumo</span>
+    </a>
+    <a href="#/mais" data-aba="mais">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16 M4 12h16 M4 17h16" /></svg>
+      <span>Mais</span>
+    </a>
+  </nav>
+
+  <div class="aviso" id="aviso" role="status" aria-live="polite" hidden>
+    <span id="aviso-texto"></span>
+    <button type="button" id="aviso-desfazer" hidden>Desfazer</button>
+  </div>
+
+  <dialog id="dialogo" aria-labelledby="dialogo-titulo">
+    <form method="dialog" id="dialogo-form"></form>
+  </dialog>
+
+  <noscript>
+    <p class="noscript">O Caderno de Pedidos precisa do JavaScript ligado no navegador para funcionar.</p>
+  </noscript>
+
+  <script src="js/core.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

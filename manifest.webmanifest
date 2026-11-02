@@ -1,0 +1,18 @@
+{
+  "name": "Caderno de Pedidos",
+  "short_name": "Pedidos",
+  "description": "Anote e acompanhe os pedidos do seu negócio de alimentação pelo celular.",
+  "lang": "pt-BR",
+  "start_url": "./#/pedidos",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f5f1",
+  "theme_color": "#14532d",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
