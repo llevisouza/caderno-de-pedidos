@@ -2,6 +2,8 @@
 
 Aplicação web gratuita para **pequenos negócios de alimentação** (lanchonetes, restaurantes de bairro, cozinhas de entrega e vendedores autônomos) anotarem e acompanharem os pedidos pelo celular, no lugar do caderno de papel.
 
+**Acesse o app:** https://llevisouza.github.io/caderno-de-pedidos/
+
 Projeto desenvolvido na disciplina **Atividade Extensionista II** do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (Centro Universitário Internacional Uninter), dando continuidade ao levantamento feito na Atividade Extensionista I. Uso gratuito e **sem fins comerciais**.
 
 - **Aluno:** Levi Vieira de Sousa (RU 4506310)
